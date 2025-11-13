@@ -18,6 +18,7 @@
 #endif
 
 #include <cassert>
+#include <cstdint>
 
 /*
 // Converts T value to RESULT_TYPE, which must be a signed number. RESULT_TYPE is by default
