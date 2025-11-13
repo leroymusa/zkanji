@@ -2786,3 +2786,8 @@ void Groups::processRemovedWord(int windex)
 
 //-------------------------------------------------------------
 
+template GroupCategory<KanjiGroup>::self_type* GroupCategory<KanjiGroup>::categories(int index);
+template const GroupCategory<KanjiGroup>::self_type* GroupCategory<KanjiGroup>::categories(int index) const;
+template GroupCategory<WordGroup>::self_type* GroupCategory<WordGroup>::categories(int index);
+template const GroupCategory<WordGroup>::self_type* GroupCategory<WordGroup>::categories(int index) const;
+

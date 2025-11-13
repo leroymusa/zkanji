@@ -196,3 +196,19 @@ ModelManifest.xml
 /tr2.bat
 /tr.bat
 /test
+
+# Qt build artifacts
+*.o
+*.a
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.pro.user
+*.pro.user.*
+.qmake.stash
+Makefile*
+zkanji
+zkanji.ini
+data/
+import_data/
