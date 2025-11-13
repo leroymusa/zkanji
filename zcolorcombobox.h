@@ -125,8 +125,8 @@ private:
     int oldindex;
 
     using QComboBox::activated;
-    using QComboBox::activated;
-    using QComboBox::currentIndexChanged;
+    // using QComboBox::activated;
+    // using QComboBox::currentIndexChanged;
     using QComboBox::currentIndexChanged;
     using QComboBox::currentTextChanged;
 
